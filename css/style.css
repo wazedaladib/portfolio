@@ -255,15 +255,15 @@ section{
     left: 50%;
     transform: translate(-50% , -50%);
     font-weight: 900px;
-    font-size: 100px;
+    font-size: 80px;
     opacity: 0;
     transition: .5s;
     pointer-events: none;
 
 }
 .list:hover::before{
-    opacity: .3;
-    transform: translate(-50% , calc(50% - 200px));
+    opacity: .2;
+    transform: translate(-50% , calc(50% - 130px));
 }
 .list a:hover.facebook{
       background:#0E8EF1 ;
